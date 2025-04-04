@@ -8,8 +8,16 @@
 
 
 class FreeStyleAssignment {
+
     public: std::string loopMethod(double num);
-    public: std::string isPrime(int num);
+
+    public: std::string nonLoopMethod(std::string num);
+
+    public: bool isPrime(int num);
+
+
+    public: bool reduceFraction(int num, int den);
+
 
 };
 
